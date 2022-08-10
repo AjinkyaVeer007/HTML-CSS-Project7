@@ -112,3 +112,79 @@ nav,
   display: flex;
   justify-content: space-between;
 }
+
+nav svg{
+  display: none;
+}
+
+@media screen and (max-width: 950px){
+  .nav-items{
+    display: none;
+  }
+
+  nav :first-child{
+    width: 80px;
+  }
+
+  nav :nth-child(3){
+    width: 280px;
+  }
+  
+
+  nav svg{
+    display: block;
+    color: #000;
+  }
+
+  .intro-section{
+    flex-direction: column;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .left-section > h3 {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .left-section > h1 {
+    font-size: 50px;
+ }
+
+ .sub-headline > img {
+  margin-right: 10px;
+}
+.sub-headline {
+  margin-top: 10px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.action-btn {
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.headphone-div > img {
+  width: 350px;
+}
+
+.discount {
+  position: absolute;
+  width: 120px;
+  margin-top: 230px;
+}
+.discount-content {
+  position: absolute;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 260px;
+  margin-left: 28px;
+}
+
+.left-section>h3>img{
+  width: 50px;
+}
+
+}
